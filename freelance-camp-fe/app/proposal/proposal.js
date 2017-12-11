@@ -15,5 +15,4 @@ var Proposal = /** @class */ (function () {
     return Proposal;
 }());
 exports.Proposal = Proposal;
-// 15, 'ABC Company, 'http://portoflio.vernkofford.com', 'Ruby on Rails', '150, 120, 15, 'vernkofford@gmail.com 
 //# sourceMappingURL=proposal.js.map
