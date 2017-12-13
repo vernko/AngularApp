@@ -17,7 +17,8 @@ export class ProposalListComponent implements OnInit {
     mode = "Observable";
 
     constructor(
-        private proposalService: ProposalService
+        private proposalService: ProposalService,
+        private router: Router
     ) {}
 
     ngOnInit() {
