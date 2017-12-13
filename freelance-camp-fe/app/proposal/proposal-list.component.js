@@ -27,6 +27,10 @@ var ProposalListComponent = /** @class */ (function () {
         this.proposalService.getProposals()
             .subscribe(function (proposals) { return _this.proposals = proposals; }, function (error) { return _this.errorMessage = error; });
     };
+    ProposalListComponent.prototype.goToShow = function (proposal) {
+        var link = ['/proposal', proposal.id];
+        this.router.navigate(link);
+    };
     ProposalListComponent = __decorate([
         core_1.Component({
             moduleId: module.id,
